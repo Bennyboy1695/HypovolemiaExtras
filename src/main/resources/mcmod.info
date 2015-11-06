@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Hypo_Extras",
+  "name": "Hypovolemia Extra's",
+  "description": "Extra Items made for the Hypovolemia modpack.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "http://github.com/Bennyboy1695/",
+  "updateUrl": "",
+  "authorList": ["Bennyboy1695"],
+  "credits": "caithleen for the modpack",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
