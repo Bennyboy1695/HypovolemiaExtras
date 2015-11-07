@@ -6,7 +6,7 @@ import com.benny.item.BasicItems;
 import com.benny.lib.HypoConfig;
 import com.benny.lib.RefStrings;
 import com.benny.world.BoneGeneration;
-import com.benny.world.OwleryInstantStructure;
+//import com.benny.world.OwleryInstantStructure;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -25,7 +25,7 @@ import net.minecraftforge.common.config.Configuration;
 @Mod(modid = RefStrings.MODID , name = RefStrings.NAME , version = RefStrings.VERSION, guiFactory = RefStrings.GUIFACTORY)
 public class MainRegistry {
 	private int SpawnRateConfig;
-	public static Block owleryInstantStructure;
+	//public static Block owleryInstantStructure;
 	
 	@SidedProxy(clientSide = RefStrings.CLIENTSIDE , serverSide = RefStrings.SERVERSIDE)
 	public static ServerProxy proxy;
@@ -60,7 +60,8 @@ public class MainRegistry {
 	public void onConfigChange(ConfigChangedEvent.OnConfigChangedEvent event){
 		if(event.modID.equals(RefStrings.MODID)){
 			HypoConfig.syncConfig();
-		}
+		}		
+		//OwleryInstantStructure.MainRegistry();
 	}
 	
 	@EventHandler
@@ -69,7 +70,7 @@ public class MainRegistry {
 		proxy.registerRenderInfo();	
 		CraftingManager.MainRegistry();
 		FMLCommonHandler.instance().bus().register(instance);
-		//OwleryInstantStructure.MainRegistry();
+
 		
 	}
 	

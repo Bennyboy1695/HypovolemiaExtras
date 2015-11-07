@@ -1,5 +1,4 @@
-Hypovolemia Extras
-==================
+![HypovolemiaExtras Logo] (https://raw.githubusercontent.com/Matryoshika/Matryoshika-s-Sinners/master/src/main/resources/HypovolemiaExtras.png)
 
 This repository is for the mod HypovolemiaExtras which was made as an easy way of adding a few needed blocks to the modpack [Hypovolemia](http://github.com/MyM-ModpackTeam/hypovolemia) which is created by [caithleen](http://github.com/drz2k) and [MineYourMind](http://github.com/MyM-ModpackTeam)
 

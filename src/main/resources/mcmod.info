@@ -2,14 +2,14 @@
 {
   "modid": "hypovolemiaextras",
   "name": "Hypovolemia Extra's",
-  "description": "Extra Items made for the Hypovolemia modpack.",
+  "description": "Extra Items made for the \u00A74Hypovolemia \u00A7rmodpack.",
   "version": "1.0.3",
   "mcversion": "1.7.10",
   "url": "http://github.com/Bennyboy1695/HypovolemiaExtras/",
   "updateUrl": "",
-  "authorList": ["Bennyboy1695"],
-  "credits": "caithleen for the modpack",
-  "logoFile": "",
+  "authorList": ["\u00A7aBennyboy1695"],
+  "credits": "\u00A79caithleen \u00A7rfor the modpack: \u00A74Hypovolemia",
+  "logoFile": "HypovolemiaExtras.png",
   "screenshots": [],
   "dependencies": []
 }
