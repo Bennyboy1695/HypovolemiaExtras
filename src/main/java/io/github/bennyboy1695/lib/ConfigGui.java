@@ -1,8 +1,8 @@
-package com.benny.lib;
+package io.github.bennyboy1695.lib;
 
 import java.util.List;
 
-import com.benny.HypovolemiaExtras.MainRegistry;
+import io.github.bennyboy1695.HypovolemiaExtras.MainRegistry;
 
 import cpw.mods.fml.client.config.GuiConfig;
 import cpw.mods.fml.client.config.IConfigElement;

@@ -1,4 +1,4 @@
-package com.benny.world;
+package io.github.bennyboy1695.world;
 
 import java.util.Random;
 
@@ -31,7 +31,9 @@ public class BoneGeneration implements IWorldGenerator
     }
  
     private void generateSurface(World world, Random random, int x, int z){
-            for(int i = 0; i < 1; i++){
+            for(int i = 0; i <
+            		2 //Spawn rate
+            		; i++){
                 int randPosX= x + random.nextInt(16);
                 int randPosZ= z + random.nextInt(16);
                 int randPosY= world.getHeightValue(randPosX, randPosZ);

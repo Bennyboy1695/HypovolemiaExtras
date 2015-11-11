@@ -1,4 +1,4 @@
-package com.benny.blocks;
+package io.github.bennyboy1695.blocks;
 
 import java.util.ArrayList;
 import java.util.Random;

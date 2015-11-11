@@ -1,8 +1,7 @@
-package com.benny.blocks;
+package io.github.bennyboy1695.blocks;
 
-import com.benny.creativetabs.hCreativeTabs;
-import com.benny.lib.RefStrings;
-//import com.benny.world.OwleryInstantStructure;
+import io.github.bennyboy1695.creativetabs.hCreativeTabs;
+import io.github.bennyboy1695.lib.RefStrings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
@@ -18,6 +17,7 @@ public class BasicBlocks {
 	
     public static Block BPillar;
     public static Block OStructure;
+	public static Object silkHammer;
 	
 	public static void initializeBlock(){
     	BPillar = new BonePillar(Material.wood).setBlockName("BPillar").setCreativeTab(hCreativeTabs.tabHExtras).setBlockTextureName(RefStrings.MODID + ":BPillar");

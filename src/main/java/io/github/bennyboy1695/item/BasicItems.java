@@ -1,7 +1,7 @@
-package com.benny.item;
+package io.github.bennyboy1695.item;
 
-import com.benny.creativetabs.hCreativeTabs;
-import com.benny.lib.RefStrings;
+import io.github.bennyboy1695.creativetabs.hCreativeTabs;
+import io.github.bennyboy1695.lib.RefStrings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;

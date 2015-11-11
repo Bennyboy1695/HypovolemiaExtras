@@ -1,7 +1,7 @@
-package com.benny.creativetabs;
+package io.github.bennyboy1695.creativetabs;
 
-import com.benny.blocks.BasicBlocks;
-import com.benny.item.BasicItems;
+import io.github.bennyboy1695.blocks.BasicBlocks;
+import io.github.bennyboy1695.item.BasicItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -14,7 +14,6 @@ public class CreativeTabHExtras extends CreativeTabs {
 
 	@Override
 	public Item getTabIconItem() {
-		// TODO Auto-generated method stub
 		return Item.getItemFromBlock(BasicBlocks.BPillar);
 	}
 

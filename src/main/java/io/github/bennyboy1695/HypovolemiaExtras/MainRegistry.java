@@ -1,12 +1,11 @@
-package com.benny.HypovolemiaExtras;
+package io.github.bennyboy1695.HypovolemiaExtras;
 
-import com.benny.blocks.BasicBlocks;
-import com.benny.creativetabs.hCreativeTabs;
-import com.benny.item.BasicItems;
-import com.benny.lib.HypoConfig;
-import com.benny.lib.RefStrings;
-import com.benny.world.BoneGeneration;
-//import com.benny.world.OwleryInstantStructure;
+import io.github.bennyboy1695.blocks.BasicBlocks;
+import io.github.bennyboy1695.creativetabs.hCreativeTabs;
+import io.github.bennyboy1695.item.BasicItems;
+import io.github.bennyboy1695.lib.HypoConfig;
+import io.github.bennyboy1695.lib.RefStrings;
+import io.github.bennyboy1695.world.BoneGeneration;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -25,7 +24,7 @@ import net.minecraftforge.common.config.Configuration;
 @Mod(modid = RefStrings.MODID , name = RefStrings.NAME , version = RefStrings.VERSION, guiFactory = RefStrings.GUIFACTORY)
 public class MainRegistry {
 	private int SpawnRateConfig;
-	//public static Block owleryInstantStructure;
+	public static Block owleryInstantStructure;
 	
 	@SidedProxy(clientSide = RefStrings.CLIENTSIDE , serverSide = RefStrings.SERVERSIDE)
 	public static ServerProxy proxy;

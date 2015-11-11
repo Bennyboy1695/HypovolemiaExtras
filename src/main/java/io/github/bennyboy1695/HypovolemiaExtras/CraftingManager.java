@@ -1,7 +1,7 @@
-package com.benny.HypovolemiaExtras;
+package io.github.bennyboy1695.HypovolemiaExtras;
 
-import com.benny.item.BasicItems;
-import com.benny.lib.HypoConfig;
+import io.github.bennyboy1695.item.BasicItems;
+import io.github.bennyboy1695.lib.HypoConfig;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;

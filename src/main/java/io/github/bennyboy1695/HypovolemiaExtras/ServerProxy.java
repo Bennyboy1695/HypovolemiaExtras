@@ -1,4 +1,4 @@
-package com.benny.HypovolemiaExtras;
+package io.github.bennyboy1695.HypovolemiaExtras;
 
 
 import cpw.mods.fml.client.registry.RenderingRegistry;

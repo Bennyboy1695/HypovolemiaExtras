@@ -1,4 +1,4 @@
-package com.benny.creativetabs;
+package io.github.bennyboy1695.creativetabs;
 
 import net.minecraft.creativetab.CreativeTabs;
 

@@ -1,8 +1,8 @@
-package com.benny.world;
+package io.github.bennyboy1695.world;
 
 import java.util.Random;
 
-import com.benny.blocks.BasicBlocks;
+import io.github.bennyboy1695.blocks.BasicBlocks;
 
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;

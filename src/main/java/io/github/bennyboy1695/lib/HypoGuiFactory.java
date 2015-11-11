@@ -1,4 +1,4 @@
-package com.benny.lib;
+package io.github.bennyboy1695.lib;
 
 import java.util.Set;
 

@@ -1,6 +1,6 @@
-package com.benny.lib;
+package io.github.bennyboy1695.lib;
 
-import com.benny.HypovolemiaExtras.MainRegistry;
+import io.github.bennyboy1695.HypovolemiaExtras.MainRegistry;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 
