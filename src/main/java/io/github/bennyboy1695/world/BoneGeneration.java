@@ -22,10 +22,24 @@ public class BoneGeneration implements IWorldGenerator
             generateSurface(world, random, x * 16, z * 16);
         case 1:
             generateEnd(world, random, x * 16, z * 16);
+        case -37:
+        	generateDreamWorld(world, random, x * 16,z * 16);
         }
     }
  
-    private void generateEnd(World world, Random random, int x, int z)
+    private void generateDreamWorld(World world, Random random, int x, int z) {
+        for(int i = 0; i <
+        		2 //Spawn rate
+        		; i++){
+            int randPosX= x + random.nextInt(16);
+            int randPosZ= z + random.nextInt(16);
+            int randPosY= world.getHeightValue(randPosX, randPosZ);
+            (new BoneTreeGen(false, 3, 0, 0, false)).generate(world, random, randPosX, randPosY, randPosZ);
+        }
+
+	}
+
+	private void generateEnd(World world, Random random, int x, int z)
     {
 
     }
@@ -41,8 +55,9 @@ public class BoneGeneration implements IWorldGenerator
             }
     }
  
-    private void generateNether(World world, Random random, int x, int z)
-    {
+    private void generateNether(World world, Random random, int x, int z){
+    
+    }
+    
     	
     }
-}
