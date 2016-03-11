@@ -67,6 +67,7 @@ public class MainRegistry {
 	public void Init(FMLInitializationEvent Event){
 		//proxy, Entities, gui and packet registering
 		proxy.registerRenderInfo();	
+		OreDicManager.MainRegistry();
 		CraftingManager.MainRegistry();
 		FMLCommonHandler.instance().bus().register(instance);
 

@@ -3,5 +3,6 @@ item.wSplinter.name=Wooden Splinter
 item.gTear.name=Gods Tear
 #Blocks
 tile.BPillar.name=Bones
+tile.RedRock.name=Red Rock
 #Creative tab
 itemGroup.HExtras=Hypovolemia Extras

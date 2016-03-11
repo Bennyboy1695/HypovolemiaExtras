@@ -15,6 +15,7 @@ public class BonePillar extends Block {
 	protected BonePillar(Material material) {
 		super(material);
 		this.setHardness(1.0F);
+		this.setLightLevel(0.3F);
 		
 	}
 	@Override
