@@ -3,6 +3,7 @@ package io.github.bennyboy1695.blocks;
 import java.util.ArrayList;
 import java.util.Random;
 
+import io.github.bennyboy1695.lib.HypoConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Items;
@@ -15,7 +16,12 @@ public class BonePillar extends Block {
 	protected BonePillar(Material material) {
 		super(material);
 		this.setHardness(1.0F);
-		this.setLightLevel(0.3F);
+        if(!HypoConfig.defaultBoneLight){
+
+        }else{
+            this.setLightLevel(0.3F);
+        }
+
 		
 	}
 	@Override

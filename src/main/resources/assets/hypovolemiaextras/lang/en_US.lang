@@ -1,8 +1,11 @@
 #Items
 item.wSplinter.name=Wooden Splinter
 item.gTear.name=Gods Tear
+#Entity's
+entity.Caithleen.name=Caithleen
 #Blocks
 tile.BPillar.name=Bones
 tile.RedRock.name=Red Rock
+tile.RedRockStone.name=Red Stone
 #Creative tab
 itemGroup.HExtras=Hypovolemia Extras

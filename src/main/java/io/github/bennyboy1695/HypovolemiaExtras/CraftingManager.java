@@ -1,5 +1,6 @@
 package io.github.bennyboy1695.HypovolemiaExtras;
 
+import io.github.bennyboy1695.blocks.BasicBlocks;
 import io.github.bennyboy1695.item.BasicItems;
 import io.github.bennyboy1695.lib.HypoConfig;
 
@@ -21,18 +22,19 @@ public class CraftingManager {
 		//Shapeless
 		if(!HypoConfig.defaultRecipe){
 			GameRegistry.addRecipe(new ShapelessOreRecipe( new ItemStack(BasicItems.wSplinter, 4), "logWood"));
-	}else{
-	}
+	}else {
+		}
 	}
 	public static void addCraftingRec(){
 		//Shaped
 
 		
 	    //Shapeless
+		GameRegistry.addShapelessRecipe(new ItemStack(BasicBlocks.RedRockStone), new ItemStack(Blocks.stone_button));
 
 	}
 	public static void addSmeltingRec(){
-		
+		GameRegistry.addSmelting(BasicBlocks.RedRock, new ItemStack(BasicBlocks.RedRockStone), 0.5F);
 	}
 
 }
