@@ -6,7 +6,7 @@ import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 
-public class HypoGuiFactory implements IModGuiFactory{
+public class WOBGuiFactory implements IModGuiFactory{
 
 	@Override
 	public void initialize(Minecraft minecraftInstance) {

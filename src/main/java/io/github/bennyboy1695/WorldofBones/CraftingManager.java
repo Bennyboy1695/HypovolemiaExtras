@@ -1,13 +1,12 @@
-package io.github.bennyboy1695.HypovolemiaExtras;
+package io.github.bennyboy1695.WorldofBones;
 
 import io.github.bennyboy1695.blocks.BasicBlocks;
 import io.github.bennyboy1695.item.BasicItems;
-import io.github.bennyboy1695.lib.HypoConfig;
+import io.github.bennyboy1695.lib.WOBConfig;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 public class CraftingManager {
@@ -20,7 +19,7 @@ public class CraftingManager {
 		//Shaped
 		
 		//Shapeless
-		if(!HypoConfig.defaultRecipe){
+		if(!WOBConfig.defaultRecipe){
 			GameRegistry.addRecipe(new ShapelessOreRecipe( new ItemStack(BasicItems.wSplinter, 4), "logWood"));
 	}else {
 		}

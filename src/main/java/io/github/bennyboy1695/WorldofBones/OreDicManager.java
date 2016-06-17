@@ -1,8 +1,7 @@
-package io.github.bennyboy1695.HypovolemiaExtras;
+package io.github.bennyboy1695.WorldofBones;
 
 import io.github.bennyboy1695.blocks.BasicBlocks;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 import net.minecraftforge.oredict.OreDictionary;
 
 public class OreDicManager {

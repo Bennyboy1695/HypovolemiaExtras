@@ -1,4 +1,4 @@
-package io.github.bennyboy1695.HypovolemiaExtras;
+package io.github.bennyboy1695.WorldofBones;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import io.github.bennyboy1695.entities.MobCaithleen;

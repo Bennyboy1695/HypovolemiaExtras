@@ -5,7 +5,10 @@ item.gTear.name=Gods Tear
 entity.Caithleen.name=Caithleen
 #Blocks
 tile.BPillar.name=Bones
+tile.BPillar2.name=Bones
 tile.RedRock.name=Red Rock
 tile.RedRockStone.name=Red Stone
+tile.BloodGrass.name=Blood Grass
+tile.BloodGrass.name=Small Blood Grass
 #Creative tab
-itemGroup.HExtras=Hypovolemia Extras
+itemGroup.WOBExtras=World Of Bones

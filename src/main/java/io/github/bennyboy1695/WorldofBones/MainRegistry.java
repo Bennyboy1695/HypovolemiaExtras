@@ -1,14 +1,13 @@
-package io.github.bennyboy1695.HypovolemiaExtras;
+package io.github.bennyboy1695.WorldofBones;
 
 import com.google.common.base.Predicates;
 import com.google.common.collect.Iterators;
 import cpw.mods.fml.common.registry.EntityRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import io.github.bennyboy1695.blocks.BasicBlocks;
 import io.github.bennyboy1695.creativetabs.hCreativeTabs;
 import io.github.bennyboy1695.entities.MobCaithleen;
 import io.github.bennyboy1695.item.BasicItems;
-import io.github.bennyboy1695.lib.HypoConfig;
+import io.github.bennyboy1695.lib.WOBConfig;
 import io.github.bennyboy1695.lib.RefStrings;
 import io.github.bennyboy1695.world.BoneGeneration;
 
@@ -20,7 +19,6 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.eventhandler.Event;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
@@ -42,15 +40,16 @@ public class MainRegistry {
 	
 	@Mod.Instance(RefStrings.MODID)
 	public static MainRegistry instance;
+
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent PreEvent){
 		//Configs & Item/Block Handling
 		config = new Configuration(PreEvent.getSuggestedConfigurationFile());
-        HypoConfig.syncConfig();
+        WOBConfig.syncConfig();
         hCreativeTabs.initialiseTabs();
         BasicItems.MainRegistry();
 		BasicBlocks.MainRegistry();
-		if(!HypoConfig.worldGen){
+		if(!WOBConfig.worldGen){
 
 		}else{
 			GameRegistry.registerWorldGenerator(new BoneGeneration(), 0);
@@ -67,7 +66,7 @@ public class MainRegistry {
 	@SubscribeEvent
 	public void onConfigChange(ConfigChangedEvent.OnConfigChangedEvent event){
 		if(event.modID.equals(RefStrings.MODID)){
-			HypoConfig.syncConfig();
+			WOBConfig.syncConfig();
 		}		
 		//OwleryInstantStructure.MainRegistry();
 	}
